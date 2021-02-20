@@ -1,0 +1,79 @@
+/*Series Card UI design*/
+html, body {
+    height: 100%;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 2px 4px 0 rgba(0, 0, 0, 0.8);
+    width: 475px;
+    height: 258px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+}
+.card-left, .card-right {
+    padding: 20px;
+}
+.card-left {
+    background: linear-gradient(to bottom, #21c8f6, #637bff);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    border-radius: 10px;
+}
+.card-right {
+    color: #888888;
+    display: flex;
+    flex-direction: column;
+}
+.card-excerpt {
+    flex: 1;
+}
+.card-meta {
+    display: flex;
+}
+.card-meta > div {
+    display: flex;
+    align-items: center;
+}
+.card-meta > div:first-child {
+    margin-right: 1em;
+}
+.card-meta > div > img {
+    margin-right: 8px;
+}
+.card-title {
+    color: #222222;
+    font-size: 1.7em;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.card-title > a {
+    text-decoration: none;
+    color: inherit;
+}
+.series-icon {
+    width: 140px;
+    height: 140px;
+}
+.meta-icon {
+    width: 15px;
+    height: 15px;
+}
+.card-difficulty {
+    font-size: 0.8em;
+}
+.card-skill-button {
+    background: rgba(0, 0, 0, 0.4);
+    font-size: 0.7em;
+    padding: 3px 25px;
+    border-radius: 9999px;
+}
